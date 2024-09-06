@@ -1,0 +1,14 @@
+node_modules/
+.env
+dist/
+build/
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+test-results/
+/playwright/.cache/
+/playwright-report/
+*.log
