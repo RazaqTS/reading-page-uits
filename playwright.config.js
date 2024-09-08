@@ -9,6 +9,9 @@ const config = {
     screenshot: 'only-on-failure', // Take screenshots only on failures
     video: 'retain-on-failure',  // Retain video only on failures
   },
+  reporter: [
+    ['html', { outputFolder: 'playwright-report', open: 'never' }]
+  ],
   projects: [
     {
       name: 'Desktop Chromium',
