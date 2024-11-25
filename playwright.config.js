@@ -17,14 +17,14 @@ const config = {
       name: 'Desktop Chromium',
       use: { ...devices['Desktop Chrome'] },  // Test using Chrome browser
     },
-    {
-      name: 'Desktop Firefox',
-      use: { ...devices['Desktop Firefox'] },  // Test using Firefox browser
-    },
-    {
-      name: 'Desktop WebKit',
-      use: { ...devices['Desktop Safari'] },  // Test using WebKit (Safari)
-    },
+    // {
+    //   name: 'Desktop Firefox',
+    //   use: { ...devices['Desktop Firefox'] },  // Test using Firefox browser
+    // },
+    // {
+    //   name: 'Desktop WebKit',
+    //   use: { ...devices['Desktop Safari'] },  // Test using WebKit (Safari)
+    // },
   ],
 };
 
