@@ -1,7 +1,5 @@
-# 1. Use Playwright's official Docker image that includes Node.js and browsers (Chromium, Firefox, WebKit)
 FROM mcr.microsoft.com/playwright:focal
 
-# 2. Set the working directory inside the container
 WORKDIR /usr/src/app
 
 # 3. Copy the package.json and package-lock.json first (to leverage Docker cache for dependencies)

@@ -12,3 +12,4 @@ test-results/
 /playwright/.cache/
 /playwright-report/
 *.log
+/blob-report/
